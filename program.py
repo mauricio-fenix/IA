@@ -12,3 +12,6 @@ import library
 print("Olá Mundo")
 
 library.vetor10()
+
+library.matrix10x10()
+
