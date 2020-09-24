@@ -23,6 +23,16 @@ def matrix10x10():
     
     print(matrix)
     
-    
-    
+def simpleStack():
+    stack = []
+    while len(stack) <= 9:
+        number = input("Insira um numero: ")
+        if number.isnumeric() : stack.append(number)
+        else: print("Insira somente numeros!") 
+    print("Pilha preenchida! removendo itens ... \n")
+    while len(stack) > 0:
+        print("Removendo: ", stack.pop())
+        print("Pilha: ", stack, "\n")
+    if len(stack) == 0 : print("Pilha vazia!")
+    else: print("Algo deu errado!")
     

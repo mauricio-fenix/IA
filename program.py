@@ -15,3 +15,5 @@ library.vetor10()
 
 library.matrix10x10()
 
+library.simpleStack()
+
