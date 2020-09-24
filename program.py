@@ -17,3 +17,4 @@ library.matrix10x10()
 
 library.simpleStack()
 
+library.simpleQueue()

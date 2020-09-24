@@ -36,3 +36,17 @@ def simpleStack():
     if len(stack) == 0 : print("Pilha vazia!")
     else: print("Algo deu errado!")
     
+def simpleQueue():
+    queue = []
+    while len(queue) <= 9:
+        number = input("Insira um numero: ")
+        if number.isnumeric() : queue.insert(0,number)
+        else: print("Insira somente numeros!") 
+    print("Fila preenchida! removendo itens ... \n")
+    while len(queue) > 0:
+        print("Removendo: ", queue.pop())
+        print("Fila: ", queue, "\n")
+    if len(queue) == 0 : print("Fila vazia!")
+    else: print("Algo deu errado!")
+    
+simpleQueue()
