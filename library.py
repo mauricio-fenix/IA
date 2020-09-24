@@ -55,9 +55,12 @@ def simpleQueue():
 def simplePriorityQueue():
     
     while q.qsize() < 10:
-        q.put((input("Prioridade da tarefa: "), input("Descrição da Tarefa: ")))
+        priory = int(input("Prioridade da tarefa: "))
+        if priory >= 0 and priory <= 5:
+            q.put((priory, input("Descrição da Tarefa: ")))
+        else:
+            print("Prioridade da tarefa deve ser de 0 a 5!")
         
     while not q.empty():
         next_item = q.get()
         print(next_item)
-        
