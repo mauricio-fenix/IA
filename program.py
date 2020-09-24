@@ -20,3 +20,6 @@ library.simpleStack()
 
 library.simpleQueue()
 
+library.simplePriorityQueue()
+
+# Fim das tarefas da revisão 1
