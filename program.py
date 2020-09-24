@@ -7,6 +7,7 @@ Created on Tue Sep 22 18:48:43 2020
 
 """
 import library
+
 # Firt Program with Python - Hello World
 
 print("Olá Mundo")
@@ -18,3 +19,4 @@ library.matrix10x10()
 library.simpleStack()
 
 library.simpleQueue()
+

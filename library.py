@@ -5,6 +5,9 @@ Created on Wed Sep 23 19:44:47 2020
 @author: dkmau
 """
 import random
+from queue import PriorityQueue
+
+q = PriorityQueue()
 
 def vetor10():
     vetor = []
@@ -49,4 +52,12 @@ def simpleQueue():
     if len(queue) == 0 : print("Fila vazia!")
     else: print("Algo deu errado!")
     
-simpleQueue()
+def simplePriorityQueue():
+    
+    while q.qsize() < 10:
+        q.put((input("Prioridade da tarefa: "), input("Descrição da Tarefa: ")))
+        
+    while not q.empty():
+        next_item = q.get()
+        print(next_item)
+        
