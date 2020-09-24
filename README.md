@@ -4,7 +4,7 @@ Repository for IA discipline - Mauricio Santana Bispo
 
 <h5>Esse repositório tem a função de cumprir com os requisitos descritos na atividade revisão 1 de IA</h5>
 
-<h3>Requisitos</h3>
+<h3>Requisitos de sistema</h3>
 <ol>
 <li>Este programa requer versão python3 ou maior</li>
 <li>Sistemas Operacionais capazes de compilar e rodar python</li>
